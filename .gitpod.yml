@@ -1,0 +1,12 @@
+# List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
+tasks:
+  - name: Install Jbang
+    init: sdk install jbang
+  - init: mvn clean install
+    name: Maven clean Install
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
+    - eamodio.gitlens
+    - wmanth.jar-viewer

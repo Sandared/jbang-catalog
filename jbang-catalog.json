@@ -1,0 +1,9 @@
+{
+  "aliases": {
+    "test": {
+      "script-ref": "Test.java",
+      "description": "A simple test command"
+    }
+  },
+  "base-ref": "src/main/java/io/qbilon/jbang"
+}
