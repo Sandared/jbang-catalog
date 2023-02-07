@@ -1,1 +1,1 @@
-A collection of qbilon jbang commands
+JBANG Test

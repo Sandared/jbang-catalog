@@ -5,5 +5,5 @@
       "description": "A simple test command"
     }
   },
-  "base-ref": "src/main/java/io/qbilon/jbang"
+  "base-ref": "src/main/java"
 }
