@@ -3,6 +3,14 @@
     "test": {
       "script-ref": "Test.java",
       "description": "A simple test command"
+    },
+    "scrapeCompanies": {
+      "script-ref": "https://github.com/Sandared/linkedin-scraper/blob/main/src/main/java/io/qbilon/linkedin/CompanyScraper.java",
+      "description": "Command to scrape companies from linkedin"
+    },
+    "scrapeLeads": {
+      "script-ref": "https://github.com/Sandared/linkedin-scraper/blob/main/src/main/java/io/qbilon/linkedin/LeadScraper.java",
+      "description": "Command to scrape leads from linkedin"
     }
   },
   "base-ref": "src/main/java"
